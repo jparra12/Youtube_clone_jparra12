@@ -8,7 +8,7 @@
     <style>
 
         .thumbnail{
-            width:300px;
+           width:100%
         }
        
         .search-bar{
@@ -40,25 +40,11 @@
             color:rgb(96,96,96);
         }
 
-        .video-preview{
-            width:300px;
-            display:inline-block;
-            vertical-align:top;
-            margin-right:10px;
-
+        .video-info-grid{
+            display:grid;
+            grid-template-columns: 50px 1fr;
         }
-
-        .channel-picture{
-            display:inline-block;
-            width:50px;
-            vertical-align: top;
-        }
-
-        .video-info{
-            display:inline-block;
-            width:200px;
-            vertical-align: top;
-        }
+       
         .profile-picture{
             width:40px;
             border-radius: 20px;
@@ -68,6 +54,13 @@
             margin-bottom: 12px;
         }
 
+        .video-grid{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 15px;
+            row-gap: 40px;
+        }
+
     </style>
 
 </head>
@@ -75,61 +68,133 @@
     
     <input class="search-bar" type="text" placeholder="Search "name="" id="">
  
- 
- 
- 
-    <div class="video-preview">
-        <div class="thumbnail-row">
-
-            <img class="thumbnail" src="thumbnails/hq720 (1).jpg" alt="">
-        </div>
-        <div>
-            <div class="channel-picture">
-                <img class="profile-picture" src="Pichai_icon.jpg" alt="">
-            </div>
-
-            <div class="video-info">
-                <p class="title">
-                    Talking Tech and AI with Google CEO Sundar Pichai!
-                </p>
-                
-                <p class="author">Marques Brownlee &#10003</p>
-                
-                <p class="viewers">3.4M views &#183; 6 months ago</p>
-
-            </div>
-            
-
-        </div>
-        
-        
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
     
+                <img class="thumbnail" src="thumbnails/hq720 (1).jpg" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="Pichai_icon.jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    
+                    <p class="author">Marques Brownlee &#10003</p>
+                    
+                    <p class="viewers">3.4M views &#183; 6 months ago</p>
     
-
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+    
+                <img class="thumbnail" src="thumbnails/hq720 (2).jpg" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="DW_icon.jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    
+                    <p class="author">Marques Brownlee &#10003</p>
+                    
+                    <p class="viewers">3.4M views &#183; 6 months ago</p>
+    
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+    
+                <img class="thumbnail" src="thumbnails/hq720 (1).jpg" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="Pichai_icon.jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    
+                    <p class="author">Marques Brownlee &#10003</p>
+                    
+                    <p class="viewers">3.4M views &#183; 6 months ago</p>
+    
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+    
+                <img class="thumbnail" src="thumbnails/hq720 (2).jpg" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="DW_icon.jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    
+                    <p class="author">Marques Brownlee &#10003</p>
+                    
+                    <p class="viewers">3.4M views &#183; 6 months ago</p>
+    
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+    
+                <img class="thumbnail" src="thumbnails/hq720 (1).jpg" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="Pichai_icon.jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    
+                    <p class="author">Marques Brownlee &#10003</p>
+                    
+                    <p class="viewers">3.4M views &#183; 6 months ago</p>
+    
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+    
+                <img class="thumbnail" src="thumbnails/hq720 (2).jpg" alt="">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="DW_icon.jpg" alt="">
+                </div>
+                <div class="video-info">
+                    <p class="title">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    
+                    <p class="author">Marques Brownlee &#10003</p>
+                    
+                    <p class="viewers">3.4M views &#183; 6 months ago</p>
+    
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="video-preview">
-        <img class="thumbnail" src="thumbnails/hq720 (2).jpg" alt="">
-    
-    
-        <p class="title">
-            Ukraine war: Russian military under fire for 
-            high death toll at Makiivka|DW...
-        </p>
-        
-        <p class="author">DW News &#10003</p>
-        
-        <p class="viewers">10k views &#183; 34 minutes ago</p>
-
-    </div>   
-    
-    
-    
-    
-    
-    
-    <img class="thumbnail" src="" alt="">
-    <img class="thumbnail" src="" alt="">
-    <img class="thumbnail" src="" alt="">
-    <img class="thumbnail" src="" alt="">
 </body>
 </html>
