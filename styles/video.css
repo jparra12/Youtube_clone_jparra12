@@ -35,6 +35,11 @@
      margin-bottom: 12px;
  }
 
+ .video-time{
+    background-color: black;
+    color: white;
+ }
+
  .video-grid{
      display:grid;
      grid-template-columns: 1fr 1fr 1fr;
