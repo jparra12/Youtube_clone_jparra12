@@ -5,7 +5,37 @@
     top:55px;
 
     background-color: white;
-    width: 72px;
-    border-right: 1px solid gray;
+    width: 68px;
+   /* border-right: 1px solid gray;*/
+
+    z-index: 200;
+    padding-top: 5px;
+
+}
+
+.sidebar-link{
+    
+    height: 70px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.sidebar-link:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+.sidebar-link img {
+    height: 26px;
+    margin-bottom:4px;
+
+}
+
+.sidebar-link div{
+    font-family: Arial;
+    font-size: 10px;
 
 }
